@@ -28,3 +28,18 @@ python3 GetNPUsers.py test.local/ -dc-ip 10.10.10.1 -usersfile usernames.txt -fo
 python3 Get-GPPPassword.py 'TEST.local/john:password123@DC01.TEST.local' -dc-ip 10.10.10.1
 
 
+# RPCCLient - Sneaky Enumeration Tactics 
+The following tool aids in enumerating objects in a domain without triggering alerts and creating a lot of "noise". 
+
+## RPCClient Authentication
+rpcclient -U 'Testuser' 10.10.1.1 - (Password Prompt will appear after)
+
+## RPCClient Commands
+- List Users = enumdomusers
+- List Groups = enumdomgroups
+- Domain Info = querydominfo
+- Enumerate all available shares = netshareenumall
+- Create Domain User = createdomuser
+
+
+
