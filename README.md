@@ -1,5 +1,5 @@
 # Ba51c_Activ3_Direct0ry_3numeration
-In most engagements regarding Active Directory, credentials are king. This repo contains basic enumeration commands that will help gain more insight into the target network and its identities. 
+In most engagements regarding Active Directory (Attacktive Directory), credentials are king. This repo contains basic enumeration commands that will help gain more insight into the target network and its identities. 
 
 
 # IP Discovery Commands
